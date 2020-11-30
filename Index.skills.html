@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body { background-color:lightgray;
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+-/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color:lightblue;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-image:url("apple.jpg");
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:grey;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:lightskyblue;padding:5px">
+  <h4 style="text-align:center">Contact Me</h4>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.home.html">Home</a>
+    <a href="index.html">About</a>
+    <a href="Index.project.html">Projects</a>
+      <a href="Index.interest.html">Hobbies And Interests</a>
+      <a href="Index.skills.html">Key skills </a>
+    <a href="Index.contact.html">Contacts</a>
+  
+  </div>
+
+<img src="CEOSkills.jpg"alt="Myself" width="200" height="200">
+<br> 
+<br> 
+<br>
+<br> 
+<p> <b><mark>Key Skills</mark></b>
+    <ul>
+      <li>HTML 86%</li>
+      <li>CSS 48%</li>
+      <li>JavaScript 20%</li>
+        <li>Self starter, able to manage individual resposibilities and contribute successfully to team deliviers.</li>
+        <li>Excellent verbal and written communication skills.</li>
+        <li>Customer centric, able to build and maintain a strong relationship with clients.</li>
+        <li>Very proactive with moderate computer skills that help me increase productivity.</li>
+        <li>Dedicated and often willing to put in overtime to ensure that busines objectives are met.</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    
+    
+
+
+
+</p>
+<!--<a href="#Top"> Back to Top</a>-->
+
+<!-- <div class="fakeimg" style="height:60px;">Image</div><br>
+ <div class="fakeimg" style="height:60px;">Image</div><br>
+ <div class="fakeimg" style="height:60px;">Image</div> --><br>
+ <br><br>
+ <br>
+ <br>
+ 
+<!-- Footer -->
+<div class="footer">
+<h2><p> &copy;2020-Lusanda-All rights reseved</p></h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+-/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color:lightgray;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-image:url("apple.jpg");
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:grey;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:lightskyblue;padding:5px">
+  <h4 style="text-align:center">My Portfolio</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Hello and</h1>
+  <p>Welcome<b>To My</b> Portfolio</p>
+  <h1>Let us take a tour</h1>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.home.html">Home</a>
+  <a href="index.html">About</a>
+  <a href="Index.project.html">Projects</a>
+    <a href="Index.interest.html">Hobbies And Interests</a>
+    <a href="Index.skills.html">Key skills </a>
+  <a href="Index.contact.html">Contacts</a>
+
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+  <section id="About">
+    <h2>About Me</h2> 
+  <p> Nice to see you here!<br></p>
+<p>Briefly About Me<br></p>
+<p>My name is Lusanda (Wendy) Magobiane.<br></p>
+
+<p>I have always been driven by creating something out of nothing. When I was younger, I started baking and sewing my own clothes, then I found the digital world where everything was possible to create! where you could create; logos, 3D models, other digital designs and websites.
+
+Today I mainly create different websites, and also work with web programming both front-end and back-end, especially with CSS. I have a broad knowledge base and can therefore help with many different kinds of projects.
+
+I started my web journey in August 2020.
+
+When I create websites, I primarily work with Visual Studio Code just because it is such a fantastic and flexible tool that is constantly evolving with the times. Of course, I also work with techniques such as HTML and CSS.
+</p>
+</section>	
+    <h5>Photo of me:</h5>
+	<img src="FB_IMG_15719041320537295.jpg"alt="Myself" width="300" height="300">
+    <!--<div class="fakeimg" style="height:200px;">image</div>  -->
+
+    
+    <h3><mark>TERTIARY EDUCATION</mark> </h3>	
+    <p><b>National Diploma In Hospitality And Catering Services (NQF 6)</b>
+    <h5> Northlink College, Cape Town</h5>
+    <h3>Introduction Level (passed)</h3></p>
+  <ul>
+    <li>
+      Intro Communication<br></li>
+      <li>Intro Service Techniques Practical<br></li>
+      <li>Intro Catering and Practice</li>
+     <li> Intro Hygiene and safety</li><br>
+  
+  </ul>
+  <p>
+    <h3>N4 Level (Passed)</h3>
+  </p>
+  <ul>
+    <li>Applied Management</li>
+    <li>Catering Theory And Practical</li>
+    <li>Nutrition And Menu Planning</li>
+    <li>Sanitation And Safety </li>
+  </ul>
+  <p>
+    <h3><mark>SECONDARY EDUCATION</mark></h3>
+    <b>National Senior Certificate (matric) NQF 3</b>
+    <h5>Msobomvu High School, Butterworth</h5>
+  </p>
+  <ul>
+<li>English 1st Additional Language</li>
+<li>IsiXhosa Home Language</li>
+<li>Life Orientation</li>
+<li>mathematical Literacy</li>
+<li>History</li>
+<li>Economics</li>
+<li>Life Sciences </li>
+  </ul>
+  <p>
+    <h3><mark>CodeTelligent</mark></h3>
+    <b>Candidate</b> (Present)
+    <h5>Khayelitsha, Cape Town </h5>
+</p>
+<ul>
+  <li>Software Developer</li>
+  <li>Web Developer</li>
+  <li>Full Stack Mobile App Developer</li>
+</ul>
+  <p>
+    <h3><mark>Work Experience</mark></h3>
+  <b>Grand West Casino</b>
+  <h5>Cape Town</h5>
+  <h5>Chef (Ad hoc basis)</h5>
+  </p>
+  <ul>
+    <li>Prepare food to the specification of the client </li>
+    <li>Prepare food before the arrival of the guests</li>
+    <li>Season food according to recipes of company needs </li>
+    <li>Operates various kitchen applivcations</li>
+    <li>Keep records and accounts of foodpurchased</li>
+  </ul>
+  <p>
+    <mark><b>Younglings (ABSA)</b> Present</mark>
+    <h5>Cape Town</h5>
+    <h5>Intern As a;</h5>
+    <ul>
+      <li>Web Developer</li>
+      <li>Full Stack Mobile App Developer</li>
+
+
+
+    </ul>
+
+
+  </p>
+
+
+
+
+
+  </p>
+	<a href="#Top"> Back to Top</a>
+   <!-- <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div> -->
+  
+
+<!-- Footer -->
+<div class="footer">
+  <h2><p> &copy;2020-Lusanda-All rights reseved</p></h2>
+</div>
+
+</body>
+</html>
